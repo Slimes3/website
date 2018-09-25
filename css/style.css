@@ -1,3 +1,8 @@
-h1{
-border: 5px solid red;
+body{
+background-color:rgb(204,238,250);
+}
+#About Me{
+  border: 5px solid White;
+  background-color: Black;
+  position: fixed;
 }
