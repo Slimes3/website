@@ -1,10 +1,10 @@
 body{
-background-color:rgb(204,238,250);
+background-color:#5CDB95;
 }
 #AboutMe{
-  border: 5px solid White;
+
 }
-div{
-border: 4px dotted Black;
+h1{
 padding: 20px 10px 20px 10px;
+color:#EDF5E1
 }
