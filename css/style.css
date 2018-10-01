@@ -29,3 +29,10 @@ header.li{
   font-size:16px;
   
 }
+p.section ul.section ol.section h2.section{
+background-color:#379683;
+font-family:News-Gothic,serif;
+font-size:14px;
+border:1px solid #379683;
+color:#EDF5E1
+}
