@@ -24,30 +24,34 @@ h2{
 #AboutMe p{
   text-align:center;
   font-family: 'Droid Serif', serif;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
+  color:#EDF5E1;
 }
 #Education ol{
   text-align:center;
   font-family: 'Droid Serif', serif;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
+  color:#EDF5E1;
 }
 #WorkSamples ul{
   text-align:center;
   font-family: 'Droid Serif', serif;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
+  color:#EDF5E1;
 }
 #Achievements ul{
   text-align:center;
   font-family: 'Droid Serif', serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 23px;
   margin: 0 0 23px 0;
+  color:#EDF5E1;
 }
 #Links h2{
   font-family: 'Droid Serif', serif;
@@ -56,6 +60,7 @@ h2{
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
+  color:#EDF5E1;
 }
 h1.Section{
   background-color:#05386B;
