@@ -76,6 +76,10 @@ h1.Section{
 }
 .NavBar li{
   float: left;
+  border-right:1px solid #379683;
+}
+.NavBar li:last-child{
+  float:right;
 }
 .NavBar a {
   float: left;
