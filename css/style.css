@@ -80,6 +80,12 @@ h1.Section{
 }
 .NavBar li:last-child{
   float:right;
+  color:#EDF5E1 ;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;  
 }
 .NavBar a {
   float: left;
