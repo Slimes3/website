@@ -15,12 +15,9 @@ h1{
   position:relative;
   
   }
-.header{
-  background color:#05386B;
-  overflow: hidden;  
+.header{ 
   position:fixed;
   z-index: 10;
-  padding: 20px 10px;
 
 }
 .header li{
@@ -31,17 +28,19 @@ h1{
   color:#EDF5E1 ;
   text-align: center;
   display: block;
-  padding: 8px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;  
+  font-size: 14px; 
     }
+.header a:hover{
+background-color:#8EE4AF;
+}
 .header ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color:#05386B;
+  overflow: hidden;
   }
 .Section p ul ol h2{
   background-color:#379683;
