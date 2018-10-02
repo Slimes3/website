@@ -15,24 +15,28 @@ color:#EDF5E1
   position:relative;
   
   }
-header{
+.header{
 background color:#05386B;
-color:#EDF5E1;
+overflow: hidden;  
 position:fixed;
-border: 1px solid #05386B;
-width: 100%;
 z-index: 10;
+padding: 20px 10px;
+
 }
-header.li{
-  display:inline-block;
-  font-family:oswald,sans-serif;
-  font-size:16px;
-  
+.header a {
+  float: left;
+  color:#EDF5E1 ;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;  
 }
-p.Section ul.Section ol.Section h2.Section{
+.Section p ul ol h2{
 background-color:#379683;
 font-family:News-Gothic,serif;
 font-size:14px;
 border:1px solid #379683;
-color:#EDF5E1
+color:#EDF5E1;
 }
