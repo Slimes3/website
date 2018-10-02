@@ -13,7 +13,7 @@ h1{
   color:#EDF5E1;
 }
 h2{
-text-align:center;
+  text-align:center;
 }
 #AboutMe{
   position:relative;
@@ -27,23 +27,35 @@ text-align:center;
   margin: 0 0 23px 0;
   }
 #Education ol{
-  
-  }
-#WorkSamples{
-  
-  }
-#Achievements{
-  
-  }
-#Links{
-  
-  }
-.Section{
   text-align:center;
-  font-family:"Lato",sans-serif;
-  position:relative;
-  
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
   }
+#WorkSamples ul{
+  text-align:center;
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  }
+#Achievements ul{
+  text-align:center;
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  }
+#Links h2{
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  }
+  
 .NavBar{ 
   position:fixed;
   z-index: 10;
@@ -73,10 +85,3 @@ background-color:#8EE4AF;
   background-color:#05386B;
   overflow: hidden;
   }
-.Section p ul ol h2{
-  background-color:#379683;
-  font-family:"News-Gothic",serif;
-  font-size:14px;
-  border:1px solid #379683;
-  color:#EDF5E1;
-}
