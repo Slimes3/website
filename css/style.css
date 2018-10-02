@@ -1,13 +1,13 @@
 body{
-background-color:#5CDB95;
+  background-color:#5CDB95;
 }
 img{
   width:50%;
   height:50%;
 }
 h1{
-padding: 20px 10px 20px 10px;
-color:#EDF5E1
+  padding: 20px 10px 20px 10px;
+  color:#EDF5E1
 }
 .Section{
   text-align:center;
@@ -16,27 +16,37 @@ color:#EDF5E1
   
   }
 .header{
-background color:#05386B;
-overflow: hidden;  
-position:fixed;
-z-index: 10;
-padding: 20px 10px;
+  background color:#05386B;
+  overflow: hidden;  
+  position:fixed;
+  z-index: 10;
+  padding: 20px 10px;
 
+}
+.header li{
+  float: left;
 }
 .header a {
   float: left;
   color:#EDF5E1 ;
   text-align: center;
-  padding: 12px;
+  display: block;
+  padding: 8px;
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;  
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#05386B;
+  }
 }
 .Section p ul ol h2{
-background-color:#379683;
-font-family:News-Gothic,serif;
-font-size:14px;
-border:1px solid #379683;
-color:#EDF5E1;
+  background-color:#379683;
+  font-family:News-Gothic,serif;
+  font-size:14px;
+  border:1px solid #379683;
+  color:#EDF5E1;
 }
