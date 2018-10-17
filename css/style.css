@@ -10,7 +10,7 @@ div{
 }
 h1{
   padding: 20px 0px 20px 0px;
-  color:#EDF5E1;
+  color:#F7F9FB;
   text-align:center;
   
 }
@@ -27,7 +27,7 @@ h2{
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#EDF5E1;
+  color:#F7F9FB;
 }
 #Education ol{
   text-align:center;
@@ -35,7 +35,7 @@ h2{
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#EDF5E1;
+  color:#F7F9FB;
 }
 #WorkSamples ul{
   text-align:center;
@@ -43,7 +43,7 @@ h2{
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#EDF5E1;
+  color:#F7F9FB;
 }
 #Achievements ul{
   text-align:center;
@@ -51,7 +51,7 @@ h2{
   font-size: 14px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#EDF5E1;
+  color:#F7F9FB;
 }
 #Links h2{
   font-family: 'Droid Serif', serif;
@@ -60,10 +60,10 @@ h2{
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#EDF5E1;
+  color:#F7F9FB;
 }
 h1.Section{
-  background-color:#05386B;
+  background-color:#687864;
   display:block;
   width:100%;
 }  
@@ -80,7 +80,7 @@ h1.Section{
 }
 .NavBar li:last-child{
   float:right;
-  color:#EDF5E1 ;
+  color:#F7F9FB ;
   text-align: center;
   display: block;
   padding: 14px 16px;
@@ -89,7 +89,7 @@ h1.Section{
 }
 .NavBar a {
   float: left;
-  color:#EDF5E1 ;
+  color:#F7F9FB ;
   text-align: center;
   display: block;
   padding: 14px 16px;
@@ -97,12 +97,12 @@ h1.Section{
   font-size: 14px; 
     }
 .NavBar a:hover{
-background-color:#8EE4AF;
+background-color:#31708E;
 }
 .NavBar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:#05386B;
+  background-color:#687864;
   overflow: hidden;
   }
