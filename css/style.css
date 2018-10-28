@@ -11,8 +11,8 @@ div{
 h1{
   padding: 20px 0px 20px 0px;
   color:#F7F9FB;
-  text-align:center;
-  
+  text-align:left;
+  text-shadow: 4px 2px gray;
 }
 h2{
   text-align:center;
