@@ -60,6 +60,7 @@ h2{
   font-style: italic;
   font-size: 20px;
   font-decoration:none;
+  text-decoration:none;
   line-height: 23px;
   margin: 0 0 23px 0;
   color:#F7F9FB;
@@ -74,6 +75,7 @@ h1.Section{
   z-index: 10;
   top:0;
   width:100%;
+  padding:0px,10px;
 
 }
 .NavBar li{
@@ -85,7 +87,7 @@ h1.Section{
   color:#F7F9FB ;
   text-align: center;
   display: block;
-  padding: 14px 0px;
+  padding: 14px 10px;
   text-decoration: none;
   font-size: 14px;  
 }
