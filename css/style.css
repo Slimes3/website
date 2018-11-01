@@ -22,12 +22,7 @@ h1.Section{
   border-top:3px solid #687864;
   border-bottom:1px double #687864;
 }
-h1.Section p{
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-  opacity:1.0;
-  vertical-align:text-top;
+  
 }
 h2{
   text-align:center;
@@ -43,6 +38,13 @@ h2{
   line-height: 23px;
   margin: 0 0 23px 0;
   color:#F7F9FB;
+  vertical-align:text-top;
+}
+#aboutmelbl{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  opacity:1.0;
   vertical-align:text-top;
 }
 #Education ol{
