@@ -43,6 +43,7 @@ h2{
   line-height: 23px;
   margin: 0 0 23px 0;
   color:#F7F9FB;
+  vertical-align:text-top;
 }
 #Education ol{
   text-align:center;
