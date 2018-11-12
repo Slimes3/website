@@ -106,7 +106,7 @@ h2{
 }
 #vid{
   max-width:400px;
-  height:340px;
+  height:auto;
 }
 
 #Links h2{
