@@ -105,8 +105,8 @@ h2{
   list-style-type: none;
 }
 #vid{
-  max-width:50%;
-  height:auto;
+  max-width:400px;
+  height:340px;
 }
 
 #Links h2{
