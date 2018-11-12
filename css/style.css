@@ -104,10 +104,11 @@ h2{
   color:black;
   list-style-type: none;
 }
-#Achievements img{
-  width:50%;
-  height:50%;
+#vid{
+  max-width:20%;
+  height:auto;
 }
+
 #Links h2{
   font-family: 'Libre Franklin', serif;
   font-weight: 400;
