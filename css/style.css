@@ -1,18 +1,34 @@
 body{
-  background-color:#8FC1E3;
+  background-color:ghostwhite;
+}
+#header{
+    font-family:"Advent Pro";
+}
+
+#header svg{
+    width:100%;
+    height:100%;
+    background-color:"url(#grad1)"
+}
+
+#grad1{
+    width: 100%;
+    height:100%;
+    fill:black;
+    stroke:white;
+    stroke-width:4;
 }
 div{
   padding: 70px;
 }
 h1{
   padding: 5px 0px 5px 0px;
-  text-shadow: 8px 4px gray;
 }
 h1.Section{
   display:block;
   width:100%;
-  border-top:3px solid #687864;
-  border-bottom:1px double #687864;
+  border-top:3px solid rgb(255,115,40);
+  border-bottom:1px double rgb(255,115,40);
 }
   
 h2{
@@ -34,39 +50,44 @@ h2{
 /*Calls the parargraph in the about me section. Used so as to not mix up the header and body. */
 #bio{
   text-align:justify;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Libre Franklin', serif;
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#F7F9FB;
+  color:black;
   width:100%;
+}
+#pdf{
+    height:auto;
+    width:50%;
 }
 /*This id is used for each headings text */
 #lbl{
   font-weight: bold;
-  color: #000000;
+  color: black;
   opacity:1.0;
   vertical-align:text-top;
-  color: #F7F9FB;
   text-align: left;
+  font-family: "Crimson Text";
+  font-size:30pt; 
 }
 #Education li{
   text-align:left;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Libre Franklin', serif;
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#F7F9FB;
+  color:black;
   list-style-type: none;
 }
 #WorkSamples li{
   text-align:left;
   text-decoration:none;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Libre Franklin', serif;
   font-size: 20px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#F7F9FB;
+  color:black;
   list-style-type:none;
   padding:none;
 }
@@ -75,19 +96,20 @@ h2{
   font-size:16px;    
 }
 #Achievements ul{
-  text-align:center;
-  font-family: 'Droid Serif', serif;
+  text-align:left;
+  font-family: 'Libre Franklin', serif;
   font-size: 14px;
   line-height: 23px;
   margin: 0 0 23px 0;
-  color:#F7F9FB;
+  color:black;
+  list-style-type: none;
 }
 #Achievements img{
   width:50%;
   height:50%;
 }
 #Links h2{
-  font-family: 'Droid Serif', serif;
+  font-family: 'Libre Franklin', serif;
   font-weight: 400;
   font-style: italic;
   font-size: 20px;
@@ -95,11 +117,11 @@ h2{
   text-decoration:none;
   line-height: 23px;
   margin: 0 0 23px 23px;
-  color:#F7F9FB;
+  color:black;
 }
 
 .NavBar{ 
-  position:fixed;
+  position:relative;
   z-index: 10;
   top:0;
   width:100%;
@@ -108,14 +130,13 @@ h2{
 }
 .NavBar li{
   float: left;
-  border-right:1px solid #379683;
+  border-right:1px solid black;
 }
 .NavBar li:last-child{
   float:right;
   color:#F7F9FB ;
   text-align: center;
   display: block;
-  padding: 14px 10px;
   text-decoration: none;
   font-size: 14px;  
 }
@@ -126,15 +147,16 @@ h2{
   display: block;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 14px; 
+  font-size: 14px;
+  font-family: "Work Sans";
     }
 .NavBar a:hover{
-background-color:#31708E;
+background-color:black;
 }
 .NavBar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:#687864;
+  background-color:rgb(255,115,40);
   overflow: hidden;
   }
