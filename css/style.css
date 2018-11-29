@@ -49,7 +49,6 @@ h2{
 }
 /*Calls the parargraph in the about me section. Used so as to not mix up the header and body. */
 #bio{
-  text-align:justify;
   font-family: 'Libre Franklin', serif;
   font-size: 20px;
   line-height: 23px;
