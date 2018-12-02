@@ -1,6 +1,7 @@
 body{
   background-color:ghostwhite;
 }
+/*The header is used as a container element for the animation. */
 #header{
     font-family:"Advent Pro";
 }
@@ -49,6 +50,7 @@ h2{
 }
 /*Calls the parargraph in the about me section. Used so as to not mix up the header and body. */
 #bio{
+  text-align:justify;
   font-family: 'Libre Franklin', serif;
   font-size: 20px;
   line-height: 23px;
@@ -103,11 +105,10 @@ h2{
   color:black;
   list-style-type: none;
 }
-#vid{
-  max-width:400px;
-  height:auto;
+#Achievements img{
+  width:50%;
+  height:50%;
 }
-
 #Links h2{
   font-family: 'Libre Franklin', serif;
   font-weight: 400;
@@ -119,7 +120,14 @@ h2{
   margin: 0 0 23px 23px;
   color:black;
 }
-
+#usability{
+  font-family: 'Libre Franklin', serif;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  color:black;
+  width:100%;
+}
 .NavBar{ 
   position:relative;
   z-index: 10;
@@ -142,7 +150,7 @@ h2{
 }
 .NavBar a {
   float: left;
-  color:black ;
+  color:#F7F9FB ;
   text-align: center;
   display: block;
   padding: 14px 16px;
@@ -151,7 +159,7 @@ h2{
   font-family: "Work Sans";
     }
 .NavBar a:hover{
-background-color:white;
+background-color:black;
 }
 .NavBar ul{
   list-style-type: none;
