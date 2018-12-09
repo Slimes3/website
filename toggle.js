@@ -1,0 +1,23 @@
+$(document).ready(function(){
+  $("#AboutMe").find("h1").click(function(){
+    $("#AboutMe").children(".subsection").toggle();
+  })
+  $("#Education").find("h1").click(function(){
+    $("#Education").children(".subsection").toggle();  
+  })
+  $("#WorkSamples").find("h1").click(function(){
+    $("#WorkSamples").children(".subsection").toggle();  
+  })
+  $("#Achievements").find("h1").click(function(){
+    $("#Achievements").children(".subsection").toggle();  
+  })
+  $("#Links").find("h1").click(function(){
+    $("#Links").children(".subsection").toggle();  
+  })
+  $("#Accessibility").find("h1").click(function(){
+    $("#Accessibility").children(".subsection").toggle();  
+  })
+  $("#CaesarCipher").find("h1").click(function(){
+    $("#CaesarCipher").children(".subsection").toggle();  
+  })
+})
