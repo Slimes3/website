@@ -1,4 +1,4 @@
-// Script file for toggling each section in portfolio website
+// Adam Dressel - Script file for toggling each section in portfolio website
 $(document).ready(function(){
   $("#AboutMe").find("h1").click(function(){
     $("#AboutMe").children(".subsection").toggle();
