@@ -4,9 +4,12 @@
   <meta charset=utf-8>
   <title> Adam | Dressel </title>
     <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Libre Franklin' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Advent+Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Libre+Franklin' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text%7CWork+Sans:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "caesarcipher.js"></script>
+    <script src = "toggle.js"></script>
   </head>
   <body id = "home">
     <header id = "header">
@@ -17,7 +20,7 @@
                 <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
               </linearGradient>
             </defs>
-            <a xlink:href = "https://slimes3.github.io/website/index.html"> 
+            <a xlink:href = "file:///C:/Users/Adam/Documents/Website/website-master/website-master/index.html"> 
               <rect x ="0" y = "20" width = 100% height = 100% fill = "url(#grad1)"></rect>
               <text x ="400" y = "100" fill = "white" font-size = 45px>Adam Dressel - Nice to Meet You!</text>
             </a>
@@ -33,8 +36,9 @@
         <li><a href= #Achievements>Achievements</a></li>
         <li><a href = #Links>External Resources</a></li>
         <li><a href = #Accessibility>Accessibility</a></li>
+        <li><a href = #CaesarCipher>Caesar Cipher</a></li>
         <li>
-            <canvas height ="44.67" id = "Signature">
+            <canvas height ="44" id = "Signature">
                 <script>
                     var c = document.getElementById("Signature");
                     var ctx = c.getContext("2d");
@@ -47,50 +51,58 @@
       </ul>
     </nav>
     <div id = "AboutMe">
-        <h1 class = "Section" id = "lbl">About Me</h1>
-        <p id ="bio" ><img src = "Images/biopic.png" alt = "Portrait with my dog Cali and I."> Hi, my name is Adam Dressel, welcome to my website. I am a software engineering student at Florida Gulf Coast University and an aspiring software developer. I live at home with my parents and my cute little dog Cali. I am looking forward to developing by skills as a programmer and design architect. In my spare time I love to play games and watch tv with friends, work on personal projects and play pickup basketball. I believe my communication skills and experience will make me a great asset to your development team, and I hope to get into contact with other inspired creators. For further questions click on the External Resources tab.</p>
-        <object id = "pdf" data = "Images/FieldsReport.pdf"></object>
-        <a href="fields.pdf">Fields Report</a> 
+        <h1 class = "Section">About Me</h1>
+          <p id ="bio" class = "subsection"><img src = "Images/biopic.png" alt = "Portrait with my dog Cali and I."> Hi, my name is Adam Dressel, welcome to my website. I am a software engineering student at Florida Gulf Coast University and an aspiring software developer. I live at home with my parents and my cute little dog Cali. I am looking forward to developing by skills as a programmer and design architect. In my spare time I love to play games and watch tv with friends, work on personal projects and play pickup basketball. I believe my communication skills and experience will make me a great asset to your development team, and I hope to get into contact with other inspired creators. For further questions click on the External Resources tab.</p>
+          <object id = "pdf" data = "Images/FieldsReport.pdf" class = "subsection"></object>
+          <a href="fields.pdf" class = "subsection" id = pdflink>Fields Report</a> 
     </div>
     <div id = "Education" >
         <h1 class = "Section" id = "lbl">Education</h1>
-        <audio controls>
-          <source src= "Audio/Slime.mp3" type = "audio/mpeg">        
-        </audio>
-        <ol>
-          <li>Computational Tools for Engineering - Excel and Matlab experience</li>
-          <li>Mathematical Proofs and Concepts - Latex experience</li>
-          <li>Introduction to Computer Programming - Scratch, HTML and CSS experience</li>
-        </ol>
+          <audio controls class = "subsection">
+            <source src= "Audio/Slime.mp3" type = "audio/mpeg">        
+          </audio>
+          <ol class = "subsection">
+            <li>Computational Tools for Engineering - Excel and Matlab experience</li>
+            <li>Mathematical Proofs and Concepts - Latex experience</li>
+            <li>Introduction to Computer Programming - Scratch, HTML and CSS experience</li>
+          </ol>
     </div>
     <div id = "WorkSamples">
-        <h1  class = "Section" id = "lbl">Work Samples</h1>
-        <ul>
-          <li><a href = "https://scratch.mit.edu/projects/243572721/" target = "blank">Young Thug Brick</a><p id = "Worksummary">A basic little scratch game displaying knowledge of fundamental programming concepts.</p></li>
-          <li><a href = "https://www.overleaf.com/read/nkycsztcxkbh" target= "blank">Latex Document</a><p id = "Worksummary">An introductory latex document, showing proficiency and basic knowledge of the math coding program Latex.</p></li>
-        </ul>
+        <h1  class = "Section">Work Samples</h1>
+          <ul class = "subsection">
+            <li><a href = "https://scratch.mit.edu/projects/243572721/" target = "blank">Young Thug Brick</a><p class = "Worksummary">A basic little scratch game displaying knowledge of fundamental programming concepts.</p></li>
+            <li><a href = "https://www.overleaf.com/read/nkycsztcxkbh" target= "blank">Latex Document</a><p class = "Worksummary">An introductory latex document, showing proficiency and basic knowledge of the math coding program Latex.</p></li>
+          </ul>
     </div>
     <div id = "Achievements">
-        <h1 class = "Section" id = "lbl">Achievements</h1>
-        <ul>
-          <li>
+        <h1 class = "Section">Achievements</h1>
+          <ul class = "subsection">
+            <li>
               <video id = "vid" controls>
                   <source src = "Video/SPECTRUM%20-%20Skittles%20(Captain%20Falcon)%20vs.%20DSavage%20(Fox)%20-%20Losers%20Quarters%20-%20Smash%20Wii%20U.mp4" type = "video/mp4">
               </video></li>
-          <li>Fourth place at Spectrum Smash Bros Wii U event</li>
-      </ul>  
+            <li>Fourth place at Spectrum Smash Bros Wii U event</li>
+          </ul>  
     </div>
     <div  id = "Links">
-        <h1 class = "Section" id = "lbl">External Resources</h1>
-        <h2><a href= "https://www.codecademy.com/users/Postmalone21/achievements" target = "blank">CodeAcademy</a></h2>
-        <h2><a href= "https://github.com/Slimes3" target= "blank">Github Profile</a></h2>
-        <h2><a href = "https://www.sololearn.com/Profile/11629456/" target ="blank">
+        <h1 class = "Section">External Resources</h1>
+          <h2 class = "subsection"><a href= "https://www.codecademy.com/users/Postmalone21/achievements" target = "blank">CodeAcademy</a></h2>
+          <h2 class = "subsection"><a href= "https://github.com/Slimes3" target= "blank">Github Profile</a></h2>
+          <h2 class = "subsection"><a href = "https://www.sololearn.com/Profile/11629456/" target ="blank">
         SoloLearn Profile</a>
-        </h2>
+          </h2>
     </div>
     <div id = "Accessibility">
-        <h1 class = "Section" id = "lbl">Accessibility</h1>
-          <p id = "usability">This page has been styled to give all potential users equal opportunity to explore it's contents. Images have been given alternative text in case there are any compatability errors. A navigation bar has been created so users can quickly jump to sections they are looking for. An external link to the pdf has been added so users may access it outside of the webpage. Headers are clean and all text is highly contrasted with it's background for readability. This page has no errors with the <a href ="http://wave.webaim.org/" target="blank">WAVE web accessibility tool.</a></p>
+        <h1 class = "Section">Accessibility</h1>
+          <p id = "usability" class = "subsection">This page has been styled to give all potential users equal opportunity to explore it's contents. Images have been given alternative text in case there are any compatability errors. A navigation bar has been created so users can quickly jump to sections they are looking for. An external link to the pdf has been added so users may access it outside of the webpage. Headers are clean and all text is highly contrasted with it's background for readability. This page has no errors with the<a href ="http://wave.webaim.org/" target="blank"> WAVE web accessibility tool.</a></p>
+    </div>
+    <div id = "CaesarCipher">
+      <h1 class = "Section">Caesar Cipher</h1>
+        <form class = "subsection">
+          <br>
+          <input id = "decrypt" type = "text" name = "decrypt" oninput = "caesar()"> 
+        </form>
+        <p id = "cipher"></p>
     </div>
     <footer>
       <nav class = "NavBar">
@@ -101,6 +113,7 @@
           <li><a href= #Achievements>Achievements</a></li>
           <li><a href = #Links>External Resources</a></li>
           <li><a href = #Accessibility>Accessibility</a></li>
+          <li><a href = #CaesarCipher>Caesar Cipher</a></li>
           <li></li>
         </ul>
       </nav>
